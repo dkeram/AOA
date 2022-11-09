@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'phaddress',#New App for Phone Address Database
+    'ltcalculator', #New App for Local Tax Calculator
+    'ibankdb', #New App for Internet Banking Passwords and more
+    'nyinsurance', #New App for Next Year Insurances Cost Calculator
     
 ]
 

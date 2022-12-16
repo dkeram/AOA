@@ -20,6 +20,8 @@ from phaddress import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('phaddress/', views.home),
-    path('newphone/',views.registration)
+    path('phaddress/', views.phaddress_home),
+    path('newphone/',views.phaddress_registration),
+    path('edit/<contact_id>',views.phaddress_edit, name='edit_contact'),
+    path('delete/<contact_id>',views.phaddress_delete, name='delete_contact'),
 ]
